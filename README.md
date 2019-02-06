@@ -8,3 +8,4 @@ Remeber----
     3. Greater value of G tends to be green.
     2. Greater value of B tends to be blue.
     
+Basically it strthens your RGB colour code concepts.
