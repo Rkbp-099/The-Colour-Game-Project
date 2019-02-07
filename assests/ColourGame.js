@@ -40,5 +40,5 @@ function changeColor(color){
 
 function pickedColor(color){
     var randomNum = Math.floor(Math.random()*6);
-    
+    return randomNum;
 }
