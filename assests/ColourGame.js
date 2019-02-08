@@ -32,8 +32,9 @@ easyButton.addEventListener("click",function(){
             squares[i].style.display = "none";
         }
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor =  "steelblue";
     message.textContent = "";
+    resetButton.textContent = "New Colours";
 });
 hardButton.addEventListener("click",function(){
     easyButton.classList.remove("selected");
@@ -44,11 +45,12 @@ hardButton.addEventListener("click",function(){
     document.getElementById("colorDisplay").textContent = pickedColor;
     for(var i=0;i<squares.length;i++)
     {
-            squares[i].style.backgroundColor = colours[i];
-            squares[i].style.display = "block";
+        squares[i].style.backgroundColor = colours[i];
+        squares[i].style.display = "block";
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor =  "steelblue";
     message.textContent = "";
+    resetButton.textContent = "New Colours";
 });
 
 
@@ -81,7 +83,7 @@ function reset(){
     {
         squares[i].style.backgroundColor = colours[i];
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor =  "steelblue";
     message.textContent = "";
     resetButton.textContent = "New Colours";
 }
