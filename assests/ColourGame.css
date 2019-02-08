@@ -24,5 +24,19 @@ h1{
 }
 
 #message{
-    color:white;
+    color: black;
+}
+
+#stripe{
+    background-color:white;
+    text-align: center;
+    height: 30px;
+}
+
+button{
+    height: 100%;
+}
+
+.selected{
+    background-color: blue;
 }
